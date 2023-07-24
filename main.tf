@@ -7,6 +7,8 @@
 # $ export AKAMAI_HOST="your_host"
 # $ export AKAMAI_ACCESS_TOKEN="your_access_token"
 # $ export AKAMAI_CLIENT_TOKEN="your_client_token"
+#
+# when using terraform cloud add credentials to workspace as a variable set.
 
 module "standard-records" {
   source  = "app.terraform.io/grinwis-com/standard-records/edgedns"
